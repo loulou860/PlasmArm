@@ -10,6 +10,11 @@
  * - Core 1: Real-Time Motion Control
  */
 
+ //utiliser deux platformIO, communication serial entre les deux
+ //openRB project: lit commandes d'angles et les vitesses (driver servo 12V)
+ //esp32 project: calcule les angles et les vitesses des moteurs pour atteindre une position donnée
+ 
+
 #include <Arduino.h>
 #include <WiFi.h>
 #include <freertos/FreeRTOS.h>
